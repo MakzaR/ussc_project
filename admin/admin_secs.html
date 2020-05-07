@@ -9,21 +9,30 @@
 </head>
 
 <body>
-<nav class="sidebar" tabindex="0">
-	<a href="./admin_opers.html">
-		<img src="./triangle.png" class="triangle">Операторы</a>
-	<a class="active" href="./admin_secs.html">
-		<img src="./triangle.png" class="triangle">Охранники</a>
-	<a href="./admin_dics.html">
-		<img src="./triangle.png" class="triangle">Словари</a>
-</nav>
 
-<div class="main">
-	<div class="search-wr">
+<div class="grid-container">
+
+	<div class="sidebar" tabindex="0">
+		<a href="./admin_opers.html">
+			<img src="./triangle.png" class="triangle">Операторы</a>
+		<a class="active" href="./admin_secs.html">
+			<img src="./triangle.png" class="triangle">Охранники</a>
+		<a href="./admin_dics.html">
+			<img src="./triangle.png" class="triangle">Словари</a>
+	</div>
+
+	<div class="search" style="margin-top: 80px">
 		<input type="search" placeholder="Поиск">
 		<button class="search_button"> Найти </button>
 		<button class="add_button"> + Добавить </button>
 	</div>
+
+	<div class="pagination">
+		<a href="#">&laquo;</a>
+		<a href="#">1</a>
+		<a href="#">&raquo;</a>
+	</div>
+
 </div>
 
 </body>
