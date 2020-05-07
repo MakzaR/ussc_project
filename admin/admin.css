@@ -41,8 +41,70 @@ body {
 }
 
 .triangle {
-  margin-left:120px;
-  margin-right:15px;
+  margin-left:40%;
+  margin-right:7%;
   width: 10px;
   height: 15px;
+}
+
+.main {
+  position: absolute;
+  margin-left: 18%;
+  height: 100%;
+  display: block;
+  visibility: visible;
+}
+
+.search-wr {
+  position: absolute;
+  margin: 0;
+  left: 50px;
+  top: 80px;
+  display: table;
+  width: 450px;
+  height: 40px;
+  vertical-align: middle;
+  visibility: visible;
+}
+
+input[type="search"] {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  outline: 0;
+  -moz-outline-style: none; }
+
+input[type="search"] {
+  border: 1px solid #ccc;
+  padding: 0 0 0 10px;
+  font-size: 14px; }
+
+.search_button {
+  width: 80px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background: #8497FF;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  cursor: pointer;
+  transition: box-shadow .4s ease; }
+
+.add_button {
+  width: 120px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 5px;
+  background: #60B963;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  cursor: pointer;
+  transition: box-shadow .4s ease; }
+
+.pagination {
+
 }
