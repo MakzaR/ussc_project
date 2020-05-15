@@ -5,17 +5,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="./admin.css">
-  <title>Операторы</title>
+  <title>Охранники</title>
 </head>
 
 <body>
 
 <div class="grid-container">
 
+	<div class="topbar">
+		<a class="active" href="admin_secs_added.html">Зарегистрированные</a>
+		<a href="admin_secs_registered.html">В ожидании регистриации</a>
+	</div>
+
 	<div class="sidebar">
-		<a class="active" href="./admin_opers.html">
+		<a href="./admin_opers_added.html">
 			<img src="./triangle.png" class="triangle">Операторы</a>
-		<a href="./admin_secs.html">
+		<a class="active" href="./admin_secs_added.html">
 			<img src="./triangle.png" class="triangle">Охранники</a>
 		<a href="admin_dics_profs.html">
 			<img src="./triangle.png" class="triangle">Словари</a>
@@ -39,6 +44,7 @@
 		<table id="table">
 		  <tr>
 		    <th>ФИО</th>
+		    <th>Должность</th>
 		  </tr>
 		</table>
 	</div>
