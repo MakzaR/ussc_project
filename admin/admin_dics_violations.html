@@ -4,20 +4,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="./admin.css">
-  <title>Охранники</title>
+  <link rel="stylesheet" type="text/css" href="./admin_dics.css">
+  <title>Словари</title>
 </head>
 
 <body>
 
 <div class="grid-container">
 
+	<div class="topbar">
+		<a href="admin_dics_profs.html">Профессии</a>
+		<a href="admin_dics_tech.html">Виды техники</a>
+		<a href="admin_dics_obj.html">Объекты работы</a>
+		<a href="admin_dics_reasons.html">Причины отклонения заявки</a>
+		<a class="active" href="admin_dics_violations.html">Нарушения</a>
+	</div>
+
 	<div class="sidebar" tabindex="0">
 		<a href="./admin_opers.html">
 			<img src="./triangle.png" class="triangle">Операторы</a>
-		<a class="active" href="./admin_secs.html">
+		<a href="./admin_secs.html">
 			<img src="./triangle.png" class="triangle">Охранники</a>
-		<a href="admin_dics_profs.html">
+		<a class="active" href="./admin_dics_profs.html">
 			<img src="./triangle.png" class="triangle">Словари</a>
 	</div>
 
@@ -37,10 +45,10 @@
 
 	<div class="table-wr">
 		<table id="table">
-		  <tr>
-		    <th>ФИО</th>
-		    <th>Должность</th>
-		  </tr>
+			<tr>
+				<th>Нарушение</th>
+				<th>Вес нарушения</th>
+			</tr>
 		</table>
 	</div>
 
