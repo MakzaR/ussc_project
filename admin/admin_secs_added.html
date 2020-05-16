@@ -2,60 +2,64 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="./admin.css">
-  <title>Охранники</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="./admin.css" rel="stylesheet" type="text/css">
+    <title>Охранники</title>
 </head>
 
 <body>
 
 <div class="grid-container">
 
-	<div class="topbar">
-		<a href="admin_secs_registered.html">Зарегистрированные</a>
-		<a class="active" href="admin_secs_added.html">В ожидании регистриации</a>
-	</div>
+    <div class="topbar">
+        <a href="admin_secs_registered.html">Зарегистрированные</a>
+        <a class="active" href="admin_secs_added.html">В ожидании регистриации</a>
+    </div>
 
-	<div class="sidebar">
-		<a href="admin_opers_registered.html">
-			<img src="./triangle.png" class="triangle">Операторы</a>
-		<a class="active" href="admin_secs_registered.html">
-			<img src="./triangle.png" class="triangle">Охранники</a>
-		<a href="admin_dics_profs.html">
-			<img src="./triangle.png" class="triangle">Словари</a>
-	</div>
+    <div class="sidebar">
+        <a href="admin_opers_registered.html">
+            <img class="triangle" src="./triangle.png">Операторы</a>
+        <a class="active" href="admin_secs_registered.html">
+            <img class="triangle" src="./triangle.png">Охранники</a>
+        <a href="admin_dics_profs.html">
+            <img class="triangle" src="./triangle.png">Словари</a>
+    </div>
 
-	<div class="search">
-		<label>
-			<input type="search" placeholder="Поиск">
-		</label>
-		<button class="search_button"> Найти </button>
-		<button class="add_button"> + Добавить </button>
-	</div>
+    <div class="search">
+        <label>
+            <input placeholder="Поиск" type="search">
+        </label>
+        <button class="search_button"> Найти</button>
+        <button class="add_button"> + Добавить</button>
+    </div>
 
-	<div class="pagination">
-		<a href="#">&laquo;</a>
-		<a href="#">1</a>
-		<a href="#">&raquo;</a>
-	</div>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">&raquo;</a>
+    </div>
 
-	<div class="table-wr">
-		<table id="table">
-			<tr>
-				<th>ФИО</th>
-		    	<th>Должность</th>
-				<th>Ссылка</th>
-				<th></th>
-		  	</tr>
-			<tr>
-				<td>Кек</td>
-				<td>ООО"Кек"</td>
-				<td><button class="copy_button">Скопировать</button> </td>
-				<td><button class="delete_button">Удалить</button></td>
-			</tr>
-		</table>
-	</div>
+    <div class="table-wr">
+        <table id="table">
+            <tr>
+                <th>ФИО</th>
+                <th>Должность</th>
+                <th>Ссылка</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Кек</td>
+                <td>ООО"Кек"</td>
+                <td>
+                    <button class="copy_button">Скопировать</button>
+                </td>
+                <td>
+                    <button class="delete_button">Удалить</button>
+                </td>
+            </tr>
+        </table>
+    </div>
 
 </div>
 
