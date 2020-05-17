@@ -12,7 +12,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 18% auto;
+    grid-template-columns: 18% max-content auto;
     grid-template-rows: 150px 60px 60px auto;
     grid-column-gap: 2%;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .topbar {
-    grid-column: 2;
+    grid-column: 2/4;
     grid-row: 1;
     font-size: 16px;
     align-self: center;
@@ -110,10 +110,15 @@ input[type="search"] {
     transition: box-shadow .4s ease;
 }
 
+.add_wr {
+    grid-column: 3;
+    grid-row: 2;
+    align-self: center;
+}
+
 .add_button {
     width: 120px;
     height: 40px;
-    margin-left: 20px;
     border-radius: 5px;
     background: #60B963;
     border: none;
@@ -142,7 +147,7 @@ input[type="search"] {
 }
 
 .table-wr {
-    grid-column: 2;
+    grid-column: 2/4;
     grid-row: 4;
     font-size: 14px;
     padding-top: 20px;
