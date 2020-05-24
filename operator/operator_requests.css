@@ -158,6 +158,14 @@ input[type="search"] {
     background-color: #FFC0C0;
 }
 
+#table tr#denied {
+    background-color: #FFC0C0;
+}
+
+#table tr#allowed {
+    background-color: #CAE9C8;
+}
+
 #table tr:nth-child(even) {
     background-color: #f2f2f2;
 }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="./operator_requests.css" rel="stylesheet" type="text/css">
+    <title>Результат заявки</title>
+</head>
+
+<body>
+
+<div class="grid-container">
+
+    <div class="agent_contract_wr">
+        <p><b>Контрагент:</b> ООО"ГрузоперевозкиЕкб"</p>
+        <p><b>Договор:</b> <a href="#"> Название догвоора</a></p>
+    </div>
+
+    <div class="object_workers_wr">
+        <p><b>Объект:</b> Алмазные шахты</p>
+        <p><b>Кол-во рабочих:</b> 3</p>
+    </div>
+
+
+    <div class="search">
+        <label>
+            <input placeholder="Поиск" type="search">
+        </label>
+        <button class="search_button"> Найти</button>
+    </div>
+
+    <div class="result_wr">
+        <button class="green_button"> Закрыть заявку</button>
+    </div>
+
+    <div class="back_wr">
+        <button class="blue_button">Назад</button>
+    </div>
+
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">&raquo;</a>
+    </div>
+
+    <div class="table-wr">
+        <table id="table">
+            <tr>
+                <th>ФИО</th>
+                <th>Статус заявки</th>
+                <th>Причина</th>
+                <th></th>
+            </tr>
+            <tr id="allowed">
+                <td>Иванов Иван Иванович</td>
+                <td>Одобрена</td>
+                <td>-</td>
+                <td>
+                    <button class="deny_button">Отменить</button>
+                </td>
+            </tr>
+            <tr id="denied">
+                <td>Петров Пётр Петрович</td>
+                <td>Отклонена</td>
+                <td>Отсуствуют документы</td>
+                <td>
+                    <button class="deny_button">Отменить</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="exit_wr">
+        <button class="exit_button">Выйти</button>
+    </div>
+
+</div>
+
+</body>
+
+</html>
