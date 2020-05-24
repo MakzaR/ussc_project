@@ -12,7 +12,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 20% 290px auto auto;
+    grid-template-columns: 20% 290px auto 140px;
     grid-template-rows: 150px 60px auto;
     grid-column-gap: 2%;
 }
@@ -170,10 +170,9 @@ input[type="search"] {
     grid-column: 4;
     grid-row: 1;
     font-size: 14px;
-    align-self: end;
+    align-self: center;
     justify-self: end;
-    padding-right: 20%;
-    padding-bottom: 25px;
+    padding-right: 70px;
 }
 
 .exit_button {
