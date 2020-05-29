@@ -154,15 +154,15 @@ input[type="search"] {
     padding: 5px 5px 5px 8px;
 }
 
-#table tr#over {
+.over td {
     background-color: #FFC0C0;
 }
 
-#table tr#denied {
+.denied td {
     background-color: #FFC0C0;
 }
 
-#table tr#allowed {
+.allowed td {
     background-color: #CAE9C8;
 }
 

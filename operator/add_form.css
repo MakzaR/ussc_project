@@ -95,11 +95,16 @@ select {
 
 #add_form input[type="text"],
 input[type="number"],
-input[type="tel"],
-input[type="email"] {
+input[type="tel"] {
     border: 1px solid #ccc;
     padding: 0 0 0 10px;
     text-transform: capitalize;
+    font-size: 14px;
+}
+
+input[type="email"] {
+    border: 1px solid #ccc;
+    padding: 0 0 0 10px;
     font-size: 14px;
 }
 
