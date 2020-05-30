@@ -4,18 +4,23 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="agent.css" rel="stylesheet" type="text/css">
-    <title>Сотрудники</title>
+    <link href="agent_requests_view.css" rel="stylesheet" type="text/css">
+    <title>Заявки</title>
 </head>
 
 <body>
 
 <div class="grid-container">
 
+    <div class="topbar">
+        <a href="agent_requests_open.html">Открытые</a>
+        <a class="active" href="agent_requests_closed.html">Закрытые</a>
+    </div>
+
     <div class="sidebar">
-        <a class="active" href="agent_workers.html">
+        <a href="agent_workers.html">
             <img class="triangle" src="./triangle.png">Сотрудники</a>
-        <a href="agent_requests_open.html">
+        <a class="active" href="agent_requests_open.html">
             <img class="triangle" src="./triangle.png">Заявки</a>
     </div>
 
@@ -39,19 +44,23 @@
     <div class="table-wr">
         <table id="table">
             <tr>
-                <th>ФИО</th>
-                <th>Должность</th>
-                <th>Баллы за нарушения</th>
+                <th>Объект</th>
+                <th>Кол-во сотрудников</th>
+                <th></th>
             </tr>
             <tr>
-                <td><a href="#">Иванов Иван Иванович</a></td>
-                <td>Грузчик</td>
+                <td>Алмазная шахта</td>
                 <td>10</td>
+                <td>
+                    <button class="check_button">Просмотреть</button>
+                </td>
             </tr>
-            <tr class="over">
-                <td><a href="#">Иванов Иван Петрович</a></td>
-                <td>Водитель</td>
-                <td>300</td>
+            <tr>
+                <td>Склад №5</td>
+                <td>100</td>
+                <td>
+                    <button class="check_button">Просмотреть</button>
+                </td>
             </tr>
         </table>
     </div>

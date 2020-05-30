@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="agent.css" rel="stylesheet" type="text/css">
+    <link href="agent_requests_view.css" rel="stylesheet" type="text/css">
     <title>Заявки</title>
 </head>
 
@@ -12,10 +12,15 @@
 
 <div class="grid-container">
 
+    <div class="topbar">
+        <a class="active" href="agent_requests_open.html">Открытые</a>
+        <a href="agent_requests_closed.html">Закрытые</a>
+    </div>
+
     <div class="sidebar">
         <a href="agent_workers.html">
             <img class="triangle" src="./triangle.png">Сотрудники</a>
-        <a class="active" href="agent_requests.html">
+        <a class="active" href="agent_requests_open.html">
             <img class="triangle" src="./triangle.png">Заявки</a>
     </div>
 
@@ -40,13 +45,11 @@
         <table id="table">
             <tr>
                 <th>Объект</th>
-                <th>Статус</th>
                 <th>Кол-во сотрудников</th>
                 <th></th>
             </tr>
             <tr class="closed">
                 <td>Алмазная шахта</td>
-                <td>Закрыта</td>
                 <td>10</td>
                 <td>
                     <button class="check_button">Просмотреть</button>
@@ -54,7 +57,6 @@
             </tr>
             <tr>
                 <td>Склад №5</td>
-                <td>Открыта</td>
                 <td>100</td>
                 <td>
                     <button class="check_button">Просмотреть</button>
