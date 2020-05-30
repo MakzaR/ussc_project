@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="./add_form.css" rel="stylesheet" type="text/css">
+    <title>Добавление Рабочего</title>
+</head>
+
+<body>
+<form id="add_form">
+    <div class="outer">
+        <div class="middle">
+            <div class="inner">
+                <div class="add-wr">
+                    <h2>Добавление рабочего</h2>
+                    <div class="form">
+                        <h3>ФИО</h3>
+                        <label>
+                            <input placeholder="ФИО" type="text">
+                        </label>
+                        <h3>Должность</h3>
+                        <label>
+                            <select>
+                                <option value="porter">Грузчик</option>
+                                <option value="driver">Водитель</option>
+                            </select>
+                        </label>
+                        <h3>Дата рождения</h3>
+                        <label>
+                            <input placeholder="Дата рождения" type="date">
+                        </label>
+                        <h3>Документы</h3>
+                        <div class="docs_wr">
+                            <div class="column">
+                                <p>Удостоверение личности <span style="color:red">*</span> :
+                                    <label class="custom_upload">
+                                        Загрузить файл
+                                        <input type="file">
+                                    </label>
+                                </p>
+                                <p>Водительское удостоверение:
+                                    <label class="custom_upload">
+                                        Загрузить файл
+                                        <input type="file">
+                                    </label>
+                                </p>
+                                <p>Приказ приёма на работу:
+                                    <label class="custom_upload">
+                                        Загрузить файл
+                                        <input type="file">
+                                    </label>
+                                </p>
+                                <p>Информация о прохождении обучений:
+                                    <label class="custom_upload">
+                                        Загрузить файл
+                                        <input type="file">
+                                    </label>
+                                </p>
+                                <p>Информация о прохождении <br> курсов целевого назначения:
+                                    <label class="custom_upload">
+                                        Загрузить файл
+                                        <input type="file">
+                                    </label>
+                                </p>
+                            </div>
+                            <div class="column">
+                                <p>Удостоверение тракториста-машиниста:
+                                    <label class="custom_upload">
+                                        Загрузить файл
+                                        <input type="file">
+                                    </label>
+                                </p>
+                                <p>Медсправка:
+                                    <label class="custom_upload">
+                                        Загрузить файл
+                                        <input type="file">
+                                    </label>
+                                </p>
+                                <p>Кваливикационное удостоверение:
+                                    <label class="custom_upload">
+                                        Загрузить файл
+                                        <input type="file">
+                                    </label>
+                                </p>
+                                <p>Информация о прохождении инструктажа
+                                    :
+                                    <label class="custom_upload">
+                                        Загрузить файл
+                                        <input type="file">
+                                    </label>
+                                </p>
+                                <p>Сертификат о прохождении обучения по <br> программе “Защитное/зимнее вождение”:
+                                    <label class="custom_upload">
+                                        Загрузить файл
+                                        <input type="file">
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                        <button class="add_button"> + Добавить</button>
+                        <button class="back_button"> Назад</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+
+</html>
