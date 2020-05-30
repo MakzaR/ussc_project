@@ -82,11 +82,10 @@ h3 {
 .doc_info_wr {
     grid-column: 2;
     grid-row: 5;
-    display: flex;
-}
-
-.column {
-    flex: 50%;
+    width: 50%;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .penalty_head_wr {
@@ -106,32 +105,32 @@ h3 {
     padding-bottom: 40px;
 }
 
-#table {
+.table {
     border: 1px solid #7B7B7B;
     border-radius: 5px;
     width: 85%;
 }
 
-#table th {
+th {
     border: 1px solid #ffffff;
     padding: 8px;
 }
 
-#table td {
+td {
     font-size: 14px;
     border: 1px solid #ffffff;
     padding: 5px 5px 5px 8px;
 }
 
-#table tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-#table tr:hover {
+tr:hover {
     background-color: #ddd;
 }
 
-#table th {
+th {
     text-align: left;
     background-color: #DEDEDE;
     color: #454545;
