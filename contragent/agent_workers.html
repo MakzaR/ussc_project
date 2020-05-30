@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="./operator.css" rel="stylesheet" type="text/css">
-    <title>Заявки</title>
+    <link href="agent.css" rel="stylesheet" type="text/css">
+    <title>Сотрудники</title>
 </head>
 
 <body>
@@ -13,9 +13,9 @@
 <div class="grid-container">
 
     <div class="sidebar">
-        <a href="operator_companies.html">
-            <img class="triangle" src="./triangle.png">Контрагенты</a>
-        <a class="active" href="operator_requests.html">
+        <a class="active" href="agent_workers.html">
+            <img class="triangle" src="./triangle.png">Сотрудники</a>
+        <a href="agent_requests.html">
             <img class="triangle" src="./triangle.png">Заявки</a>
     </div>
 
@@ -39,18 +39,19 @@
     <div class="table-wr">
         <table id="table">
             <tr>
-                <th>Наименование</th>
-                <th>Объект</th>
-                <th>Кол-во рабочих</th>
-                <th></th>
+                <th>ФИО</th>
+                <th>Должность</th>
+                <th>Баллы за нарушения</th>
             </tr>
             <tr>
-                <td>ООО"Кек"</td>
-                <td>Алмазная шахта</td>
+                <td><a href="#">Иванов Иван Иванович</a></td>
+                <td>Грузчик</td>
+                <td>10</td>
+            </tr>
+            <tr class="over">
+                <td><a href="#">Иванов Иван Петрович</a></td>
+                <td>Водитель</td>
                 <td>300</td>
-                <td>
-                    <button class="check_button">Просмотреть</button>
-                </td>
             </tr>
         </table>
     </div>

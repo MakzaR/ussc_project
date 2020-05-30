@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="./operator.css" rel="stylesheet" type="text/css">
+    <link href="agent.css" rel="stylesheet" type="text/css">
     <title>Заявки</title>
 </head>
 
@@ -13,9 +13,9 @@
 <div class="grid-container">
 
     <div class="sidebar">
-        <a href="operator_companies.html">
-            <img class="triangle" src="./triangle.png">Контрагенты</a>
-        <a class="active" href="operator_requests.html">
+        <a href="agent_workers.html">
+            <img class="triangle" src="./triangle.png">Сотрудники</a>
+        <a class="active" href="agent_requests.html">
             <img class="triangle" src="./triangle.png">Заявки</a>
     </div>
 
@@ -39,15 +39,23 @@
     <div class="table-wr">
         <table id="table">
             <tr>
-                <th>Наименование</th>
                 <th>Объект</th>
-                <th>Кол-во рабочих</th>
+                <th>Статус</th>
+                <th>Кол-во сотрудников</th>
                 <th></th>
             </tr>
-            <tr>
-                <td>ООО"Кек"</td>
+            <tr class="closed">
                 <td>Алмазная шахта</td>
-                <td>300</td>
+                <td>Закрыта</td>
+                <td>10</td>
+                <td>
+                    <button class="check_button">Просмотреть</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Склад №5</td>
+                <td>Открыта</td>
+                <td>100</td>
                 <td>
                     <button class="check_button">Просмотреть</button>
                 </td>
