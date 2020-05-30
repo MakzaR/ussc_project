@@ -187,3 +187,16 @@ input[type="search"] {
     cursor: pointer;
     transition: box-shadow .4s ease;
 }
+
+.check_button {
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #8497FF;
+    background: none;
+    color: #8497FF;
+    font-size: 12px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: box-shadow .4s ease;
+}
