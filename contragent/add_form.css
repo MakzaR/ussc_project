@@ -75,7 +75,7 @@ body {
 #add_form input[type="text"],
 input[type="date"],
 select {
-    width: 30%;
+    width: 70%;
     margin-bottom: 20px;
     height: 40px;
     border-radius: 5px;
@@ -100,6 +100,15 @@ input[type="date"] {
     border: 1px solid #ccc;
     padding: 0 0 0 10px;
     font-size: 14px;
+}
+
+.main_wr {
+    display: flex;
+    width: 600px;
+}
+
+.column_main {
+    flex: 50%;
 }
 
 .docs_wr {
